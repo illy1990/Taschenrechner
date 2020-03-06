@@ -1,0 +1,161 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input {
+    margin: 0 auto;
+    margin: 10px;
+    width: 30%;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+form {
+    height: 60vh;
+    background: linear-gradient(45deg,purple,pink);
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "ausgabe ausgabe ausgabe ausgabe"
+    "ausgabe2 ausgabe2 ausgabe2 ausgabe2"
+    "gleich gleich gleich gleich"
+    "ausgabe3 ausgabe3 ausgabe3 ausgabe3"
+    "ausgabe4 ausgabe4 ausgabe4 ausgabe4"
+    "Mal Durch Minus Plus"
+    "Komma Zahl9 Zahl8 Zahl7"
+    "Zahl6 Zahl5 Zahl4 Zahl3"
+    "Zahl2 Zahl1 Zahl0 ergebnis"
+    "reset platzhalter1 platzhalter2 platzhalter3"
+    ;}
+
+input{
+    display: block;
+    width: 50px;
+}
+
+#Komma{
+    grid-area: Komma;
+}
+
+#GleichzeichenKatze{
+    grid-area: gleich;
+    margin: 0 auto;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+#ausgabe{
+    grid-area: ausgabe;
+    margin: 0 auto;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+#ausgabe2{
+    grid-area: ausgabe2;
+    margin: 0 auto;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+#ausgabe3{
+    grid-area: ausgabe3;
+    margin: 0 auto;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+#ausgabe4{
+    grid-area: ausgabe4;
+    margin: 0 auto;
+    padding-top: 25px;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+#Zahl0{
+    grid-area: Zahl0;
+}
+
+#Zahl1{
+    grid-area: Zahl1;
+}
+
+#Zahl2{
+    grid-area: Zahl2;
+}
+
+#Zahl3{
+    grid-area: Zahl3;
+}
+
+#Zahl4{
+    grid-area: Zahl4;
+}
+
+#Zahl5{
+    grid-area: Zahl5;
+}
+
+#Zahl6{
+    grid-area: Zahl6;
+}
+
+#Zahl7{
+    grid-area: Zahl7;
+}
+
+#Zahl8{
+    grid-area: Zahl8;
+}
+
+#Zahl9{
+    grid-area: Zahl9;
+}
+
+#Mal{
+    grid-area: Mal;
+}
+
+#Durch{
+    grid-area: Durch;
+}
+
+#Minus{
+    grid-area: Minus;
+}
+
+#Plus{
+    grid-area: Plus;
+}
+
+#ergebnis{
+    grid-area: ergebnis;
+}
+
+#reset{
+    grid-area: reset;
+}
+
+#platzhalter1{
+    grid-area: platzhalter1;
+    display: none;
+}
+
+#platzhalter2{
+    grid-area: platzhalter2;
+    display: none;
+}
+
+#platzhalter3{
+    grid-area: platzhalter3;
+    display: none;
+}
